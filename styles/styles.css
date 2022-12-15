@@ -10,40 +10,177 @@ Table of Contents:
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
-
+/*grijs #899CA0 en donkergroen #1C2B32*/
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
 
+h2 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
 
+a{
+    color: #899CA0;
+    text-decoration: underline;
+}
+
+a:hover{
+    font-style: unset;
+    text-decoration: none;
+
+}
+
+button{
+
+    background-color: #1C2B32;
+    border-radius: 50px;
+
+    color: #fff;
+
+}
+    
+details {
+    margin-top: 35px;
+}
+
+details > summary {
+
+    cursor: pointer;
+}
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
 
 
-
 /*////////////////////////
-    3. Areas
-////////////////////////*/
+    3. Areas////////////////////////*/
 
-
+main
+{
+    width: 1000px;
+    margin: 0 auto;
+}
 
 /*///////////// 3.1 Header /////////////*/
+.page-header {
+    background-image: url("../assets/images/mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding-top:100px ;
+    padding-bottom: 250px;
+    font-weight: ;
 
+}
 
+.page-header input{
+
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    margin-right: -6px;
+    border-radius: 20px 0px 0px 20px;
+    height: 51px;
+    font-weight: 600;
+    background-color: transparent;
+    text-align: center;
+
+}
+
+.page-header button{
+    border-radius: 0px 20px 20px 0px;
+    border-style: solid;
+    border-color: black;
+    height: 54px;
+    width: 200px;
+    background-color: #1C2B32;
+    color: #fff;
+    text-align: center;
+
+}
+
+.page-header h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.page-header p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-style:;
+}
+
+.header-group{
+    width: 1000px;
+    margin: 0 auto;
+
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
+.testimonial {
+    margin-top: 20px;
+    margin: 0 auto;
+}
 
-
+.testimonial article {
+    width: 100%;
+    height: 230px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /*///////////// 3.3 Support /////////////*/
+.support{
+    margin-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    text-align: left;
 
+}
 
+.support img{
+
+    width: 100%;
+    border-radius: 20px;    
+}
+
+.support button {
+
+    width: 200px;
+    height: 65px;
+    margin-top: 15px;
+    border-style: solid;
+    border-color: #1C2B32;
+}
 
 /*///////////// 3.4 Faq /////////////*/
+.faq {
+
+    margin-top: 75px;
+    margin-bottom: 75px;
+
+}
 
 
 
 /*///////////// 3.5 Footer /////////////*/
+footer{
+    margin-top: 50px;
+    height: 40px;
+    padding-top: 20px;
+    background-color: #1C2B32;
+    text-align: center;
+    color: #fff;
+}
